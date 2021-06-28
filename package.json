@@ -1,7 +1,7 @@
 {
-  "name": "public",
+  "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A note taker app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,9 @@
   "author": "Emma Mattner",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "json": "^11.0.0",
+    "node": "^16.3.0"
   }
 }
