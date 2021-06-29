@@ -11,7 +11,7 @@ app.use(express.json());
 
 currentID = notes.length;
 
-// creating routes
+// creating api routes
 
 app.get("/api/notes", function (req, res) {
 
@@ -49,3 +49,15 @@ app.delete("/api/notes/:id", function (req, res) {
 
     rewriteNotes();
 })
+
+app.use(express.static("public"));
+
+// creating HTML routes
+
+app.get("/notes", function (req, res) {
+    res.sendFile(path.join(__dirname, "public/notes.html"));
+});
+
+app.get("*", function (req, res) {
+    res.sendFile(path.join(__dirname, "public/index.html"));
+});
