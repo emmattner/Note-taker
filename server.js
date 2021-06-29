@@ -10,3 +10,24 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 currentID = notes.length;
+
+// creating routes
+
+app.get("/api/notes", function (req, res) {
+
+    return res.json(notes);
+});
+
+app.post("/api/notes", function (req, res) {
+    var newNote = req.body;
+
+    newNote["id"] = currentID +1;
+    currentID++;
+    console.log(newNote);
+
+    notes.push(newNote);
+
+    rewriteNotes();
+
+    return res.status(200).end();
+});
