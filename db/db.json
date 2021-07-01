@@ -1,6 +1,1 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+[{"title":"Shopping List","text":"Eggs\nBread\nMilk\nPotatoes\n","id":5},{"title":"To do","text":"Re-do assignment\nRead MDN docs","id":6}]
