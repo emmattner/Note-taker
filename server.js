@@ -66,3 +66,14 @@ app.get("*", function (req, res) {
 app.listen(PORT, function () {
     console.log("App listening on PORT " + PORT);
 });
+
+function rewriteNotes() {
+    fs.writeFile("db/db.json", JSON.stringify(notes), function (err) {
+        if (err) {
+            console.log("error")
+            return console.log(err);
+        }
+
+        console.log("Success!");
+    });
+}
