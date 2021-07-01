@@ -40,7 +40,7 @@ https://emmas-note-taker.herokuapp.com/
 
 
 ## Questions
-I would love to hear your feedback, please don't hesitate to contact us via email at [emattner1997@gmail.comn](mailto;emattner1997@gmail.com) or visit my profile on [Github](https://github.com/emmattner) 
+I would love to hear your feedback, please don't hesitate to contact me via email at [emattner1997@gmail.comn](mailto;emattner1997@gmail.com) or visit my profile on [Github](https://github.com/emmattner) 
         
 ## License
 This project is protected under [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs), please read through the license terms and conditions.
