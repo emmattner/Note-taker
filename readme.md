@@ -36,6 +36,7 @@ Emma Mattner
 
 
 ## Deployment Link
+https://emmas-note-taker.herokuapp.com/
 
 
 ## Questions
